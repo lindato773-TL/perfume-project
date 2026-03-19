@@ -64,6 +64,9 @@ Keep responses concise (under 120 words). Use ✨ emojis sparingly.`;
     "I need a gift for my partner",
     "Something for a formal event",
     "Fresh & casual everyday scent",
+    "I love floral fragrances",
+    "I'm looking for something oriental",
+    
   ];
 
   return (

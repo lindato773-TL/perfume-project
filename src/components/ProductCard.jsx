@@ -29,7 +29,7 @@ export default function ProductCard({ product, onAddToCart, onView }) {
       <div className="p-4">
         <div className="flex items-start justify-between mb-1">
           <h3 className="font-serif text-lg font-semibold text-gray-900">{product.name}</h3>
-          <span className="text-sm font-semibold text-gray-900 ml-2">₦{product.price.toLocaleString()}</span>
+          <span className="text-sm font-semibold text-gray-900 ml-2">${product.price.toLocaleString()}</span>
         </div>
 
         <div className="flex items-center gap-2 mb-3">
@@ -60,7 +60,7 @@ export default function ProductCard({ product, onAddToCart, onView }) {
 
           <button
             onClick={() => onView(product)}
-            className="flex-1 flex items-center justify-center gap-1.5 bg-yellow-500 text-white text-xs font-medium py-2 rounded-full hover:bg-yellow-400 transition-colors"
+            className="flex-1 flex items-center justify-center gap-1.5 bg-amber-400 text-white text-xs font-medium py-2 rounded-full hover:bg-amber-550 transition-colors"
           >
             <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}

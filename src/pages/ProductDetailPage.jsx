@@ -59,7 +59,7 @@ export default function ProductDetailPage({ product, onAddToCart, setPage }) {
 
           <div className="mb-8">
             <span className="font-serif text-3xl font-semibold text-gray-900">
-              ₦{product.price.toLocaleString()}
+              ${product.price.toLocaleString()}
             </span>
           </div>
 

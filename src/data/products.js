@@ -1,5 +1,5 @@
 export const PRODUCTS = [
-  { id:1, name:'Valour Essence', price:50000, rating:4.4, reviews:1000, category:'Men', notes:'Oud, Sandalwood, Amber', img:'https://images.unsplash.com/photo-1594035910387-fea47794261f?w=400&q=80', desc:'A bold, commanding fragrance with deep woody undertones.' },
+  { id:1, name:'Valour Essence', price:50000, rating:4.4, reviews:1000, category:'Women', notes:'Soft, Woody,confident', img:'https://i.pinimg.com/736x/35/19/cb/3519cbaf1f3a479777526456e61288d9.jpg', desc:'A bold, commanding fragrance with deep woody undertones.' },
   { id:2, name:'Rose Aurore', price:45000, rating:4.7, reviews:820, category:'Women', notes:'Rose, Jasmine, Musk', img:'https://images.unsplash.com/photo-1541643600914-78b084683702?w=400&q=80', desc:'Floral romance in a bottle. Delicate yet unforgettable.' },
   { id:3, name:'Midnight Citrus', price:38000, rating:4.5, reviews:650, category:'Unisex', notes:'Bergamot, Cedar, Vetiver', img:'https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?w=400&q=80', desc:'Fresh citrus top notes meet a mysterious smoky base.' },
   { id:4, name:'Lumière Blanche', price:62000, rating:4.9, reviews:340, category:'Women', notes:'White Tea, Iris, Cashmere', img:'https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=400&q=80', desc:'Soft and ethereal — a whisper of sophistication.' },
