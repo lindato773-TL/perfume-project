@@ -45,13 +45,6 @@ export default function HomePage({ setPage, onAddToCart, onViewProduct }) {
             >
               Shop Now
             </button>
-            <button
-              onClick={() => setPage("ai")}
-              className="text-white font-medium px-6 py-3 rounded-full text-sm border border-white/30 hover:bg-white/20 transition-all"
-              style={{ background: "rgba(255,255,255,0.12)", backdropFilter: "blur(8px)" }}
-            >
-              ✨ AI Scent Advisor
-            </button>
           </div>
         </div>
       </section>

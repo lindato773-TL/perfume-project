@@ -4,7 +4,6 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import CollectionsPage from "./pages/CollectionsPage";
 import ProductDetailPage from "./pages/ProductDetailPage";
-import AIAdvisorPage from "./pages/AIAdvisorPage";
 import CartPage from "./pages/CartPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
@@ -36,7 +35,6 @@ export default function App() {
       case "home":        return <HomePage setPage={setPage} onAddToCart={handleAddToCart} onViewProduct={handleViewProduct} />;
       case "collections": return <CollectionsPage onAddToCart={handleAddToCart} onViewProduct={handleViewProduct} />;
       case "product":     return <ProductDetailPage product={viewedProduct} onAddToCart={handleAddToCart} setPage={setPage} />;
-      case "ai":          return <AIAdvisorPage />;
       case "cart":        return <CartPage cart={cart} onRemove={handleRemoveFromCart} />;
       case "about":       return <AboutPage />;
       case "contact":     return <ContactPage />;
