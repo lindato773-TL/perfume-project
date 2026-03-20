@@ -46,7 +46,7 @@ export default function Footer({ setPage }) {
       </div>
 
       <div className="border-t border-white/5 px-6 py-4 text-center">
-        <p className="text-xs text-white/30">© 2026 ScentSational. All rights reserved.</p>
+        <p className="text-xs text-white/30">© 2026 Lady Shop. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -96,8 +96,9 @@ export default function CartPage({ cart, onRemove }) {
               <div className="p-6">
 
                 {/* Supported Banks */}
-                <div className="flex justify-center gap-2 mb-6 flex-wrap">
-                  {["ABA", "ACLEDA", "Wing", "TrueMoney", "Metfone"].map((bank) => (
+                <div className="flex justify-center gap-2 mb-6 flex-wrap fs-6 fw-bold ">
+                
+                  {["ABA",].map((bank) => (
                     <span key={bank}
                       className="text-xs bg-amber-50 border border-yellow-400/20 px-3 py-1 rounded-full text-gray-500 font-medium">
                       {bank}
