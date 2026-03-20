@@ -21,7 +21,6 @@ export default function Navbar({ page, setPage, cartCount }) {
             { key: "home", label: "Home" },
             { key: "collections", label: "Collections" },
             { key: "about", label: "About Us" },
-            { key: "ai", label: "AI Advisor" },
           ].map(({ key, label }) => (
             <button
               key={key}
@@ -73,7 +72,6 @@ export default function Navbar({ page, setPage, cartCount }) {
             { key: "home", label: "Home" },
             { key: "collections", label: "Collections" },
             { key: "about", label: "About Us" },
-            { key: "ai", label: "AI Advisor" },
             { key: "contact", label: "Contact Us" },
           ].map(({ key, label }) => (
             <button

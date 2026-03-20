@@ -23,7 +23,6 @@ export default function Footer({ setPage }) {
             {[
               { key: "home", label: "Home" },
               { key: "collections", label: "Collections" },
-              { key: "ai", label: "AI Advisor" },
               { key: "contact", label: "Contact" },
             ].map(({ key, label }) => (
               <button
