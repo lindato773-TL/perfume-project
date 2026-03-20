@@ -33,7 +33,7 @@ export default function AboutPage() {
           </div>
           <div className="rounded-3xl overflow-hidden aspect-video bg-amber-50">
             <img
-              src="https://images.unsplash.com/photo-1591019479261-1a103585c559?w=600&q=80"
+              src="https://i.pinimg.com/1200x/cf/00/9e/cf009e0ea67a5aef5a1c07f410674a02.jpg"
               alt="Perfume crafting"
               className="w-full h-full object-cover"
             />
