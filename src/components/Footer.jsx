@@ -7,12 +7,12 @@ export default function Footer({ setPage }) {
         <div>
           <div className="flex items-baseline gap-0.5 mb-3">
             <span className="font-serif text-2xl font-semibold">
-              <span className="text-yellow-400">S</span>cent
+              <span className="text-yellow-400 ">L</span>ADY
             </span>
-            <span className="font-serif text-base italic text-white/40 ml-1">ational</span>
+            <span className="font-serif text-base italic text-white/40 ml-1"></span>
           </div>
           <p className="text-xs text-white/50 leading-relaxed">
-            Exquisite fragrances crafted to capture your unique essence.
+          we will try our best to make sure you get the best scent that suits your personality and style.
           </p>
         </div>
 
@@ -39,9 +39,9 @@ export default function Footer({ setPage }) {
         {/* Contact */}
         <div>
           <p className="text-xs uppercase tracking-widest text-yellow-400 mb-4">Contact</p>
-          <p className="text-xs text-white/50">Lagos, Nigeria</p>
-          <p className="text-xs text-white/50 mt-1">hello@scentsational.ng</p>
-          <p className="text-xs text-white/50 mt-1">+234 800 000 0000</p>
+          <p className="text-xs text-white/50">To Linda</p>
+          <p className="text-xs text-white/50 mt-1">lindato773@gamil.com</p>
+          <p className="text-xs text-white/50 mt-1">+855 71 906 1336</p>
         </div>
       </div>
 

@@ -7,8 +7,8 @@ import abaQR from "../assets/aba-qr.png";
 // 2. រូបភាពដែល upload: "/src/assets/my-qr.png"
 // 3. PayWay / Wing / TrueMoney link
 const YOUR_QR_CODE_IMAGE = abaQR; // ← ប្តូរទីនេះជារូបភាព QR Code របស់អ្នក
-const YOUR_NAME = "ScentSational Shop";       // ← ឈ្មោះហាង
-const YOUR_ACCOUNT = "012 345 678";           // ← លេខគណនី ឬ លេខទូរស័ព្ទ
+const YOUR_NAME = "Lady Shop";       // ← ឈ្មោះហាង
+const YOUR_ACCOUNT = "0719061336";           // ← លេខគណនី ឬ លេខទូរស័ព្ទ
 
 export default function CartPage({ cart, onRemove }) {
   const total = cart.reduce((sum, item) => sum + item.price * item.qty, 0);
