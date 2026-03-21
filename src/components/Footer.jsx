@@ -1,15 +1,15 @@
 export default function Footer({ setPage }) {
   return (
-    <footer className="bg-gray-900 text-white mt-16">
+    <footer className="bg-gray-800 text-white mt-16">
       <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-3 gap-8">
 
         {/* Brand */}
         <div>
           <div className="flex items-baseline gap-0.5 mb-3">
             <span className="font-serif text-2xl font-semibold">
-              <span className="text-yellow-400 ">L</span>ADY
+              <span className="text-yellow-400 ">L</span>ady
             </span>
-            <span className="font-serif text-base italic text-white/40 ml-1"></span>
+            <span className="font-serif text-base italic text-white/40 ml-1">Aroma House</span>
           </div>
           <p className="text-xs text-white/50 leading-relaxed">
           we will try our best to make sure you get the best scent that suits your personality and style.
@@ -46,7 +46,7 @@ export default function Footer({ setPage }) {
       </div>
 
       <div className="border-t border-white/5 px-6 py-4 text-center">
-        <p className="text-xs text-white/30">© 2026 Lady Shop. All rights reserved.</p>
+        <p className="text-xs text-white/30">© 2026 Lady Aroma House. All rights reserved.</p>
       </div>
     </footer>
   );

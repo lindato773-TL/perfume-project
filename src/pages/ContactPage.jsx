@@ -14,7 +14,7 @@ export default function ContactPage() {
   return (
     <div className="max-w-xl mx-auto px-6 py-14">
       <div className="text-center mb-10">
-        <h2 className="font-serif text-4xl font-semibold text-gray-900">Get in Touch</h2>
+        <h2 className="font-serif text-4xl font-semibold text-gray-900">Contact Us</h2>
         <p className="text-gray-400 text-sm mt-2">We'd love to hear from you</p>
       </div>
 

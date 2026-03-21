@@ -14,7 +14,7 @@ export default function AboutPage() {
           style={{ background: "rgba(255,255,255,0.12)", backdropFilter: "blur(16px)", border: "1px solid rgba(255,255,255,0.2)" }}
         >
           <h1 className="font-serif text-5xl font-semibold text-white mb-3">Our Story</h1>
-          <p className="text-white/70 text-sm max-w-sm mx-auto">Crafting extraordinary fragrances since 2018</p>
+          <p className="text-white/70 text-sm max-w-sm mx-auto">Crafting extraordinary fragrances since 2020</p>
         </div>
       </div>
 

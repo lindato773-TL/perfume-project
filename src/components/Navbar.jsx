@@ -10,9 +10,9 @@ export default function Navbar({ page, setPage, cartCount }) {
         {/* Logo */}
         <button onClick={() => setPage("home")} className="flex items-baseline gap-0.5">
           <span className="font-serif text-3xl font-semibold text-gray-900">
-            <span className="text-yellow-500">S</span>cent
+            <span className="text-yellow-500">L</span>ady
           </span>
-          <span className="font-serif text-lg italic text-gray-400 ml-1">ational</span>
+          <span className="font-serif text-lg italic text-gray-400 ml-1">Aroma House</span>
         </button>
 
         {/* Desktop Nav */}

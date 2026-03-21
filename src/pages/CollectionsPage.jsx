@@ -15,9 +15,7 @@ export default function CollectionsPage({ onAddToCart, onViewProduct }) {
       <div className="text-center mb-12">
         <p className="text-sm text-yellow-500 uppercase tracking-widest mb-2">Our Fragrances</p>
         <h2 className="font-serif text-4xl md:text-5xl font-semibold text-gray-900">The Full Collection</h2>
-        <p className="text-gray-400 mt-3 max-w-xl mx-auto text-sm">
-          Every bottle tells a story. Find the scent that speaks to yours.
-        </p>
+        
       </div>
 
       {/* Category Tabs */}
